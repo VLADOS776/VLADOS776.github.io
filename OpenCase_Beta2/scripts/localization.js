@@ -959,12 +959,12 @@ Localization.jackpot = [{
     }, {
         "selector": "#js-local-question-2",
         "localization": {
-            "EN": "Why weapons price is $0?"
+            "EN": "Why are some weapon prices $0?"
         }
     }, {
         "selector": "#js-local-answer-2",
         "localization": {
-            "EN": "Weapons prices are taken from the database. If there are no prices for current weapon, then price is taken from the Steam Market. If there is no price as well, it counts as $0. <br> When the weapon appears in market, open the weapon info in inventory, wait until the price is loaded, reopen inventory."
+            "EN": "Weapon prices are taken from the database. If there are no prices for a weapon, then the price is taken from the Steam Market. If there is no price there as well, it counts as $0. <br> When the weapon appears in market, open the weapon info in inventory, wait until the price is loaded, reopen inventory."
         }
     }, {
         "selector": "#js-local-question-trade",
@@ -984,12 +984,12 @@ Localization.jackpot = [{
     }, {
         "selector": "#js-local-answer-rank",
         "localization": {
-            "EN": "For increase your rank you need points. Points are given for the following steps: <ul><li>Open the app - <i class='js-var' data-var='DAILY_REWARD_POINTS'></i> points (award is given once a day)</li><li>Open the case - <i class='js-var' data-var='OPEN_CASE_REWARD_POINTS'></i> point</li><li>Won in the mini-game - <i class='js-var' data-var='GAME_WIN_REWARD_POINTS'></i> points</ul>"
+            "EN": "To increase you're rank you need to earn points. Points are given for the following steps: <ul><li>Open the app - <i class='js-var' data-var='DAILY_REWARD_POINTS'></i> points (award is given once a day)</li><li>Open the case - <i class='js-var' data-var='OPEN_CASE_REWARD_POINTS'></i> point</li><li>Won in the mini-game - <i class='js-var' data-var='GAME_WIN_REWARD_POINTS'></i> points</ul>"
         }
     }, {
         "selector": "#js-local-question-doublePoints",
         "localization": {
-            "EN": "Where I can spend double credits?"
+            "EN": "Where can I spend double credits?"
         }
     }, {
         "selector": "#js-local-answer-doublePoints",
@@ -1033,7 +1033,7 @@ Localization.jackpot = [{
     }, {
         "selector": "#local-name",
         "localization": {
-            "EN": "Your name"
+            "EN": "You're Name"
         }
     }, {
         "selector": "#local-avatar",
@@ -1048,7 +1048,7 @@ Localization.jackpot = [{
     }, {
         "selector": "#local-beta_trade",
         "localization": {
-            "EN": "Exchange"
+            "EN": "Exchange" // I think this should be trading or something because nobody really uses the term "Exchange"
         }
     }, {
         "selector": "#local-local",
@@ -1068,17 +1068,17 @@ Localization.jackpot = [{
     }, {
         "selector": "#local-drop",
         "localization": {
-            "EN": "Fast drop (x2)"
+            "EN": "Fast Drop (x2)"
         }
     }, {
         "selector": "#reset",
         "localization": {
-            "EN": "Full reset"
+            "EN": "Full Reset"
         }
     }, {
         "selector": "#reset-text",
         "localization": {
-            "EN": "All weapons will be deleted. Statistics will be reset. Are you sure?"
+            "EN": "All weapons and stats will be removed and reset. Are you sure you want to proceed?"
         }
     }, {
         "selector": "#resetConfirm",
@@ -1110,7 +1110,7 @@ Localization.jackpot = [{
         },
         "resetQuestion": {
             "RU": "Вы уверены, что хотите очистить инвентарь и сбросить статистику?",
-            "EN": "All weapons will be deleted. Statistics will be reset. Are you sure?"
+            "EN": "All weapons and stats will be removed and reset. Are you sure you want to proceed?"
         },
         "notValidNicknameTitle": {
             "RU": "Ошибка",
@@ -1118,28 +1118,28 @@ Localization.jackpot = [{
         },
         "notValidNickname": {
             "RU": "В имени могут быть только буквы и цифры.",
-            "EN": "Wrong name. Only letters and numbers are available."
+            "EN": "You can only use numbers, underscores, and letters in you're username"
         }
     }
 Localization.about = [{
         "selector": "#developer",
         "localization": {
-            "EN": "Main developer"
+            "EN": "Main Developer"
         }
     }, {
         "selector": "#local-1",
         "localization": {
-            "EN": "If you found some bugs or you have a suggestion you can write me an email."
+            "EN": "If you've found any bugs, or have a suggestion, feel free to contact me via my email above."
         }
     }, {
         "selector": "#local-2",
         "localization": {
-            "EN": "If you want to thank the developer you can send something in Steam :)"
+            "EN": "If you want to thank the developer, you can send something in Steam :)"
         }
     }, {
         "selector": "#local-3",
         "localization": {
-            "EN": "Do not forget to rate the app in the Play Market ^_^"
+            "EN": "Don't forget to rate the app in the Play Store ^_^"
         }
     }, {
         "selector": "#special-thanks",
@@ -1159,13 +1159,13 @@ Localization.about = [{
     }, {
         "selector": "#local-4",
         "localization": {
-            "EN": "All information is taken from public sources. If anything in the application infringes your copyright, please contact me."
+            "EN": "All information is taken from public sources. If anything infringes you're copyright, contact me via my email above."
         }
     }, ],
     Localization.apps = []
 Localization.ban = {
     wrong_ban: {
         RU: "Если вы считаете, что получили бан по ошибке, напишите на почту kurtukovvlad@gmail.com",
-        EN: "If you were banned by a mistake, write to email kurtukovvlad@gmail.com"
+        EN: "If you were banned by mistake, send an email to kurtukovvlad@gmail.com"
     }
 }*/
